@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6e072d;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  padding: 18px 27px; 
+  border-right: 2px solid white;
+}
+
+li:hover {
+  background-color: #b90e4d;
+  cursor: pointer;
+}
+
+
+.left li:last-child {
+  border-right: none;
+}
+
+.right li:first-child {
+  border-left: none;
+}
